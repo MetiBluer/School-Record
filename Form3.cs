@@ -80,7 +80,7 @@ namespace Final_Exam_project
             OleDbDataAdapter da = new OleDbDataAdapter(cmd);
             DataTable dt = new DataTable();
             da.Fill(dt);
-            dgvRecords.DataSource = dt
+            dgvRecords.DataSource = dt;
 
         }
         void clear()
